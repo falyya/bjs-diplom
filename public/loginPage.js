@@ -1,5 +1,6 @@
 "use strict";
 
+
 class UserForm {
     loginFormCallback(data) {
         ApiConnector.login(data,response => {
