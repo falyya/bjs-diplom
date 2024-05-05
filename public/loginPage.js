@@ -1,7 +1,7 @@
 "use strict";
 
 
-class UserForm {
+class userForm {
     loginFormCallback(data) {
         ApiConnector.login(data,response => {
             if (response.success) {
